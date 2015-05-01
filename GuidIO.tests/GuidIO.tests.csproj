@@ -8,8 +8,8 @@
     <ProjectGuid>{E72AD197-E885-4AD3-BFA9-42E55CD1F36B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KCT.GuidIO.Tests</RootNamespace>
-    <AssemblyName>KCT.GuidIO.tests</AssemblyName>
+    <RootNamespace>GuidIO.Tests</RootNamespace>
+    <AssemblyName>GuidIO.tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>3a22611d</NuGetPackageImportStamp>
