@@ -5,11 +5,6 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidIO", "GuidIO\GuidIO.csproj", "{F886EA46-3649-469B-9FDA-77934A1E1C20}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9A45A65-0197-451F-AF38-D5782A23FBB4}"
-	ProjectSection(SolutionItems) = preProject
-		GuidTest\Todos.txt = GuidTest\Todos.txt
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidIO.tests", "GuidIO.tests\GuidIO.tests.csproj", "{E72AD197-E885-4AD3-BFA9-42E55CD1F36B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9D4EAFB4-4BCB-48BD-B33A-82D3A8782C88}"
