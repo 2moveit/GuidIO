@@ -1,0 +1,4 @@
+- Auf GitHub posten
+- NuGet Package erstellen
+- Deployment erstellen ggf. mit ProjectScaffold?
+- Markdown file Readme mit Beispielen
