@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace KCT.GuidIO
+namespace GuidIO
 {
     /// <summary>
     ///     GuidIO manages the directory structure for files.

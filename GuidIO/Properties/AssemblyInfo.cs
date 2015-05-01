@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("GuidIO")]
-[assembly: AssemblyDescription("GuidIO manages the directory structure for files.")]
+[assembly: AssemblyDescription("GuidIO manages the directory structure for files automatically based on the file name.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("2moveIT")]
+[assembly: AssemblyCompany("Kai Timmermann")]
 [assembly: AssemblyProduct("GuidIO")]
-[assembly: AssemblyCopyright("Copyright 2moveIT ©  2015")]
+[assembly: AssemblyCopyright("Copyright Kai Timmermann ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

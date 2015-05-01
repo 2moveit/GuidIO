@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace KCT.GuidIO.Tests
+namespace GuidIO.Tests
 {
     public class ManagedDirsDemo
     {

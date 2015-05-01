@@ -1,14 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq.Expressions;
+﻿using System.Collections.Generic;
 using Should;
 using Xunit;
-using Xunit.Extensions;
 
-namespace KCT.GuidIO.Tests
+namespace GuidIO.Tests
 {
     public class ManagedDirsTests
     {
+        public static IEnumerable<object[]> IgnoreData
+        {
+            get
+            {
+                return new[]
+                {
+                    new object[] {"1-2_34", @".\12\34", new[] {'-', '_'}}
+                };
+            }
+        }
+
         [Theory,
          InlineData("12345678-aaaa-bbbb-cccc-ddddeeeeffff", @".", 2, 0),
          InlineData("12345678-aaaa-bbbb-cccc-ddddeeeeffff", @".\12", 2, 1),
@@ -33,17 +41,6 @@ namespace KCT.GuidIO.Tests
             var managedDirs = new ManagedDirs(ignoreChar: new[] {'-', '_'});
             string path = managedDirs.GetDirPath(input);
             path.ShouldEqual(expectedPath);
-        }
-
-        public static IEnumerable<object[]> IgnoreData
-        {
-            get
-            {
-                return new[]
-                {
-                    new object[] {"1-2_34", @".\12\34", new[] {'-', '_'}}
-                };
-            }
         }
     }
 }
