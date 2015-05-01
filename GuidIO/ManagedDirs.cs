@@ -38,21 +38,23 @@ namespace KCT.GuidIO
         ///     Gets the directory path for a GUID.
         /// </summary>
         /// <param name="guid">GUID  to derive the directory structure for.</param>
+        /// <param name="rootDir">Root directory for the managed file structure.</param>
         /// <returns>Path of the directory</returns>
-        public string GetDirPath(Guid guid)
+        public string GetDirPath(Guid guid, string rootDir = ".")
         {
-            return GetDirPath(guid.ToString("N"));
+            return GetDirPath(guid.ToString("N"), rootDir);
         }
 
         /// <summary>
         ///     Gets the directory path for a file.
         /// </summary>
         /// <param name="fileName">File name to derive the directory structure for.</param>
+        /// <param name="rootDir">Root directory for the managed file structure.</param>
         /// <returns>Path of the directory</returns>
-        public string GetDirPath(string fileName)
+        public string GetDirPath(string fileName, string rootDir = ".")
         {
             var name = ignoreChar.Aggregate(fileName, (current, t) => current.Replace(t.ToString(), ""));
-            string path = ".";
+            string path = rootDir;
             for (int index = 0; index < depth; index++)
             {
                 if (index == 0)

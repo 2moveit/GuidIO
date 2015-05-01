@@ -27,7 +27,13 @@ namespace KCT.GuidIO.Tests
         }
 
 
-
+        [Theory, MemberData("IgnoreData")]
+        public void GetDirPath_ignore_chars(string input, string expectedPath, char[] ignoreChars)
+        {
+            var managedDirs = new ManagedDirs(ignoreChar: new[] {'-', '_'});
+            string path = managedDirs.GetDirPath(input);
+            path.ShouldEqual(expectedPath);
+        }
 
         public static IEnumerable<object[]> IgnoreData
         {
@@ -38,14 +44,6 @@ namespace KCT.GuidIO.Tests
                     new object[] {"1-2_34", @".\12\34", new[] {'-', '_'}}
                 };
             }
-        }
-
-        [Theory, MemberData("IgnoreData")]
-        public void GetDirPath_ignore_chars(string input, string expectedPath, char[] ignoreChars)
-        {
-            var managedDirs = new ManagedDirs(ignoreChar: new[] {'-', '_'});
-            string path = managedDirs.GetDirPath(input);
-            path.ShouldEqual(expectedPath);
         }
     }
 }
