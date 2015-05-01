@@ -3,6 +3,7 @@ GuidIO (pronounced Gidio like Guido) manages the directory structure for files a
 
 ### Install
 To install GuidIO via [NuGet](https://www.nuget.org/packages/GuidIO/), run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console).
+
 **<code>
 PM&gt; Install-Package GuidIO
 </code>**
