@@ -1,8 +1,6 @@
 # GuidIO
 [![Join the chat at https://gitter.im/2moveit/GuidIO](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/2moveit/GuidIO?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-GuidIO (pronounced Gidio like Guido) manages the directory structure for files automatically based on the file name.
-
 ### Install
 To install GuidIO via [NuGet](https://www.nuget.org/packages/GuidIO/), run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console).
 
