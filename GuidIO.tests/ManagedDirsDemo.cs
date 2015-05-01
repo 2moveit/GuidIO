@@ -45,10 +45,10 @@ namespace KCT.GuidIO.Tests
 
             // Default configuration with ignore filter for characters
             managedDirs = new ManagedDirs(ignoreChar: new[] {'-'});
-            managedDirs.Create("1-2_3.txt", "./Demo_ignore");   // .\Demo_ignore\12\_3\1-2_3.txt
+            managedDirs.Create("1-2_3.txt", "./Demo_ignore");                       // .\Demo_ignore\12\_3\1-2_3.txt
 
-            string dir1 = managedDirs.GetDirPath("1-2_3.txt");  // .\12\_3
-            string dir2 = managedDirs.GetDirPath("1-2_3.txt", "./Demo_ignore");  // ./Demo_ignore\12\_3
+            string dir1 = managedDirs.GetDirPath("1-2_3.txt");                      // .\12\_3
+            string dir2 = managedDirs.GetDirPath("1-2_3.txt", "./Demo_ignore");     // ./Demo_ignore\12\_3
         }
     }
 }

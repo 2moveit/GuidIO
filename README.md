@@ -1,5 +1,5 @@
 # GuidIO
-GuidIO manages the directory structure for files.
+GuidIO (pronounced Gidio like Guido) manages the directory structure for files automatically based on the file name.
 
 ```csharp
 public void Demo()
@@ -43,4 +43,4 @@ public void Demo()
 }
 ```
 
-## Comments, ideas, suggestions welcome.
+Comments, ideas, suggestions welcome.
