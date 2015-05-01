@@ -1,4 +1,6 @@
 # GuidIO
+[![Join the chat at https://gitter.im/2moveit/GuidIO](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/2moveit/GuidIO?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 GuidIO (pronounced Gidio like Guido) manages the directory structure for files automatically based on the file name.
 
 ### Install
