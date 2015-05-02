@@ -23,7 +23,7 @@ Target "Clean" (fun _ ->
 )
 
 Target "SetVersion" (fun _ ->
-    CreateCSharpAssemblyInfo "./GuidIO/Properties/AssemblyInfo.cs"
+    CreateCSharpAssemblyInfo "./sources/GuidIO/Properties/AssemblyInfo.cs"
         [Attribute.Title "GuidIO"
          Attribute.Description "GuidIO manages the directory structure for files automatically based on the file name."
          Attribute.Company "Kai Timmermann"
