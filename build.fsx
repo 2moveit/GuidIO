@@ -35,13 +35,13 @@ Target "SetVersion" (fun _ ->
 )
 
 Target "CompileApp" (fun _ ->
-    !! @"GuidIO\**\*.csproj"
+    !! @"sources\GuidIO\**\*.csproj"
       |> MSBuildRelease buildDir "Build"
       |> Log "AppBuild-Output: "
 )
 
 Target "CompileTests" (fun _ ->
-    !! @"GuidIO.tests\**\*.csproj"
+    !! @"sources\GuidIO.tests\**\*.csproj"
       |> MSBuildDebug testDir "Build"
       |> Log "TestBuild-Output: "
 )
