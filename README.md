@@ -1,5 +1,5 @@
 # GuidIO
-[![Join the chat at https://gitter.im/2moveit/GuidIO](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/2moveit/GuidIO?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![NuGet](https://img.shields.io/badge/NuGet-0.0.1-blue.svg)](https://www.nuget.org/packages/GuidIO/)
+[![Join the chat at https://gitter.im/2moveit/GuidIO](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/2moveit/GuidIO?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![NuGet Status](http://img.shields.io/nuget/v/GuidIO.svg?style=flat)](https://www.nuget.org/packages/GuidIO/) [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/2moveit/GuidIO?branch=master&svg=true)](https://ci.appveyor.com/project/2moveit/guidio) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/2moveit/GuidIO/blob/master/LICENSE)
 
 ### Install
 To install GuidIO via [NuGet](https://www.nuget.org/packages/GuidIO/), run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console).
