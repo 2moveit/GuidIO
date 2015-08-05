@@ -15,7 +15,7 @@ let packagesDir = @".\packages"
 let fxCopRoot = @".\Tools\FxCop\FxCopCmd.exe"
 
 // version info
-let version = "0.1"
+let version = "0.2"
 
 // Targets
 Target "Clean" (fun _ ->

@@ -48,8 +48,13 @@ public void Demo()
 	managedDirs = new ManagedDirs(ignoreChar: new[] {'-'});
 	managedDirs.Create("1-2_3.txt", "./Demo_ignore");   // .\Demo_ignore\12\_3\1-2_3.txt
 
-	string dir1 = managedDirs.GetDirPath("1-2_3.txt");  // .\12\_3
-	string dir2 = managedDirs.GetDirPath("1-2_3.txt", "./Demo_ignore");  // ./Demo_ignore\12\_3
+	// Get directory path
+    string dir1 = managedDirs.GetDirPath("1-2_3.txt");                      // .\12\_3
+    string dir2 = managedDirs.GetDirPath("1-2_3.txt", "./Demo_ignore");     // ./Demo_ignore\12\_3
+
+    // Writes "Demo text content" into the file
+    managedDirs.WriteAllText(id1, "Demo text content", "./Demo_WriteAllText", "txt");               // .\Demo_WriteAllText\11\11\11111111-24C9-4427-BE39-4FEFD92DD569.txt
+    managedDirs.WriteAllText("1-2_3WriteAllText.txt", "Demo text content", "./Demo_WriteAllText");   // .\Demo_WriteAllText\12\_3\1-2_WriteAllText.txt    
 }
 ```
 
