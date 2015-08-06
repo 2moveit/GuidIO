@@ -1,4 +1,4 @@
-// include Fake lib
+﻿// include Fake lib
 #r @"packages\FAKE\tools\FakeLib.dll"
 
 open Fake
@@ -15,7 +15,7 @@ let packagesDir = @".\packages"
 let fxCopRoot = @".\Tools\FxCop\FxCopCmd.exe"
 
 // version info
-let version = "0.2"
+let version = "0.3"
 
 // Targets
 Target "Clean" (fun _ ->

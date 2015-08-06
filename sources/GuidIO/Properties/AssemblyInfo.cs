@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyrightAttribute("Copyright Kai Timmermann © 2015")]
 [assembly: GuidAttribute("e20d9eef-3857-4661-b5ea-34f8bede1541")]
 [assembly: AssemblyProductAttribute("GuidIO")]
-[assembly: AssemblyVersionAttribute("0.2")]
-[assembly: AssemblyFileVersionAttribute("0.2")]
+[assembly: AssemblyVersionAttribute("0.3")]
+[assembly: AssemblyFileVersionAttribute("0.3")]
 namespace System {
     internal static class AssemblyVersionInformation {
-        internal const string Version = "0.2";
+        internal const string Version = "0.3";
     }
 }
